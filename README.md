@@ -2,7 +2,7 @@
 TUGAS AKHIR WEB PROGRAMING 2
 =====================================
 \
-##-administator\
+## -administator\
   login\
   logout\
   membuat kode promo ongkir\
