@@ -1,13 +1,12 @@
 # Project ini ditunjukan untuk memenuhi syarat penilaian Ujian Akhir Semester
 TUGAS AKHIR WEB PROGRAMING 2
 =====================================
-\
-## -administator\
-  login\
-  logout\
-  membuat kode promo ongkir\
-  membuat kode diskon belanja\
-  chat user\
+## -administator
+  login<br>
+  logout<br>
+  membuat kode promo ongkir<br>
+  membuat kode diskon belanja
+  chat user
   *
   *
   *
