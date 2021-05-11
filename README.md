@@ -2,12 +2,12 @@
 TUGAS AKHIR WEB PROGRAMING 2
 =====================================
 \
--administator
+##-administator\
   login\
   logout\
-  membuat kode promo ongkir
-  membuat kode diskon belanja
-  chat user
+  membuat kode promo ongkir\
+  membuat kode diskon belanja\
+  chat user\
   *
   *
   *
