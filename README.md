@@ -11,13 +11,13 @@ TUGAS AKHIR WEB PROGRAMING 2
   *
   *
   <br>
--user
-  login
-  logout
-  memilih item
-  chat admin
+-user<br><br>
+  login<br>
+  logout<br>
+  memilih item<br>
+  chat admin<br>
   *
   *
   *
--Guest 
+-Guest <br>
   melihat detail item
