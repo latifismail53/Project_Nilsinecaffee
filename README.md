@@ -1,7 +1,7 @@
 # Project ini ditunjukan untuk memenuhi syarat penilaian Ujian Akhir Semester
 TUGAS AKHIR WEB PROGRAMING 2
 =====================================
-## -administator
+## Administator
   login<br>
   logout<br>
   membuat kode promo ongkir<br>
