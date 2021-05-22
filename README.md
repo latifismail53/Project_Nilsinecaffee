@@ -5,8 +5,8 @@ TUGAS AKHIR WEB PROGRAMING 2
   login<br>
   logout<br>
   membuat kode promo ongkir<br>
-  membuat kode diskon belanja
-  chat user
+  membuat kode diskon belanja<br>
+  chat user<br>
   *
   *
   *
