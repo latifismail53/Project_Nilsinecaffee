@@ -4,9 +4,8 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="row">
+<p align="center">
 <img src= "https://user-images.githubusercontent.com/59318022/119240343-1e605a00-bb79-11eb-9c1f-06325bcb2adb.png" width="400" >
-<img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2F_nusamandiri&psig=AOvVaw0nYaTMQC-2U_I_1y79ulqA&ust=1622394804464000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCa8uWx7_ACFQAAAAAdAAAAABAD" width="400" >
 </p>
 
   <h3 align="center">Nilsine Caffee</h3>
@@ -45,11 +44,3 @@ Here's why:
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Codeigniter](https://codeigniter.com)
