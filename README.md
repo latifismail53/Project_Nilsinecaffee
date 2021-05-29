@@ -4,10 +4,10 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://user-images.githubusercontent.com/59318022/119240343-1e605a00-bb79-11eb-9c1f-06325bcb2adb.png" alt="Logo" width="350" height="350">
-  </a>
+<p align="row">
+<img src= "https://user-images.githubusercontent.com/59318022/119240343-1e605a00-bb79-11eb-9c1f-06325bcb2adb.png" width="400" >
+<img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2F_nusamandiri&psig=AOvVaw0nYaTMQC-2U_I_1y79ulqA&ust=1622394804464000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCa8uWx7_ACFQAAAAAdAAAAABAD" width="400" >
+</p>
 
   <h3 align="center">Nilsine Caffee</h3>
 
