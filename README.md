@@ -21,3 +21,6 @@ TUGAS AKHIR WEB PROGRAMING 2 <img width="375" alt="logo" src="https://user-image
   *
 -Guest <br>
   melihat detail item
+#Build with
+[Modular extension]
+(https://github.com/brianwozeniak/codeigniter-modular-extensions-hmvc)
