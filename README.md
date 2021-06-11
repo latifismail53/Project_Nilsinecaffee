@@ -10,12 +10,13 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 #### Project ini sebagai syarat penilaian tugas akhir semester pada mata kuliah web programming II Universitas Nusa Mandiri
 
-Nilsine caffe merupakan nama dari sebuah project website terdahulu yang masih menggunakan web native yang sekarang di implementasikan menggunakan framework php yaitu codeigniter.
+Nilsine caffe merupakan nama dari sebuah project website terdahulu yang masih menggunakan web native yang sekarang di implementasikan menggunakan framework php yaitu codeigniter .
 
-##### Kenapa menggunakan framework?
+## FAQ
+
+#### *Kenapa menggunakan framework?*
 framework lebih cepat karena programmer tidak perlu membuat kode dari awal. Programmer hanya perlu memanfaatkan apa yang sudah disediakan oleh framework. Tanpa framework, programmer harus membuat semuanya dari awal sehingga ini akan memakan waktu. penulisan code pun lebih efesien dan terasa singkat
 - ###### Mengkoneksikan database menggunakan codeigniter
 ```
@@ -37,9 +38,11 @@ while ($row = mysql_fetch_array($result, MYSQL_NUM))
  print "{$attribute[1]} ";
  }
 ```
+<br>
 
-##### Penerapan konsep Extention Modular
-HMVC sangat membantu ketika aplikasi memiliki banyak modules, sehingga anda dapat mengelompokkan masing – masing module itu menjadi beberapa folder yang namanya disesuaikan dengan modules, sehingga proses management filenya seperti model, view, dan controller dapat lebih mudah, karena terbagi menjadi folder berdasarkan modules. penerapan sistem (Hierarchical-Model-View-Controller) HMVC pada website yang kami buat dapat membantu untuk menghindari Source code yang menumpuk dan dapat membantu kami untuk memasang kembali source code ketika ingin digunakan di project selanjutnya
+#### *Kenapa memakai extention modular?*
+
+Extention Modular sangat membantu ketika aplikasi memiliki banyak modules, sehingga dapat mengelompokkan masing – masing module itu menjadi beberapa folder yang namanya disesuaikan dengan modules, sehingga proses management filenya seperti model, view, dan controller dapat lebih mudah, karena terbagi menjadi folder berdasarkan modules. penerapan sistem (Hierarchical-Model-View-Controller) HMVC pada website yang kami buat dapat membantu untuk menghindari Source code yang menumpuk dan dapat membantu kami untuk memasang kembali source code ketika ingin digunakan di project selanjutnya.
 
 ***
 
@@ -58,4 +61,4 @@ HMVC sangat membantu ketika aplikasi memiliki banyak modules, sehingga anda dapa
 * chat review prodak
 * pembayaran via transfer
 
-###### Dari kami mahasiswa Universitas Nusa Mandiri
+##### Dari kami mahasiswa Universitas Nusa Mandiri
