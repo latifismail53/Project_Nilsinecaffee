@@ -8,39 +8,54 @@
 <img src= "https://user-images.githubusercontent.com/59318022/119240343-1e605a00-bb79-11eb-9c1f-06325bcb2adb.png" width="400" >
 </p>
 
-  <h3 align="center">Nilsine Caffee</h3>
-
-  <p align="center">
-     Project ini ditunjukan untuk memenuhi syarat penilaian Ujian Akhir Semester Web Programing II
-    <br />
-    <br />
-    <a href="https://kopi-santuy.my.id">View Demo</a>
-  </p>
-</p>
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+#### Project ini sebagai syarat penilaian tugas akhir semester pada mata kuliah web programming II Universitas Nusa Mandiri
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Nilsine caffe merupakan nama dari sebuah project website terdahulu yang masih menggunakan web native yang sekarang di implementasikan menggunakan framework php yaitu codeigniter.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+##### Kenapa menggunakan framework?
+framework lebih cepat karena programmer tidak perlu membuat kode dari awal. Programmer hanya perlu memanfaatkan apa yang sudah disediakan oleh framework. Tanpa framework, programmer harus membuat semuanya dari awal sehingga ini akan memakan waktu. penulisan code pun lebih efesien dan terasa singkat
+- ###### Mengkoneksikan database menggunakan codeigniter
+```
+ $this->load->database('websites');
+ $query = $this->db->get('sites');
+ foreach ($query->result() as $row)
+ {
+ print $row->url
+ }
+```
+- ###### Mengkoneksikan database Tanpa codeigniter
+```
+$connection = mysql_connect("localhost","fred","12345");
+mysql_select_db("websites", $connection);
+$result = mysql_query ("SELECT * FROM sites", $connection);
+while ($row = mysql_fetch_array($result, MYSQL_NUM))
+{
+ foreach ($row as $attribute)
+ print "{$attribute[1]} ";
+ }
+```
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+##### Penerapan konsep Extention Modular
+HMVC sangat membantu ketika aplikasi memiliki banyak modules, sehingga anda dapat mengelompokkan masing – masing module itu menjadi beberapa folder yang namanya disesuaikan dengan modules, sehingga proses management filenya seperti model, view, dan controller dapat lebih mudah, karena terbagi menjadi folder berdasarkan modules. penerapan sistem (Hierarchical-Model-View-Controller) HMVC pada website yang kami buat dapat membantu untuk menghindari Source code yang menumpuk dan dapat membantu kami untuk memasang kembali source code ketika ingin digunakan di project selanjutnya
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+***
+
+### Fitur :
+##### administrasi
+ * login / logout
+ * menambahkan kategori serta produk
+ * menambahkan diskon transaksi
+ * membatalkan pesanan / konfrimasi pesanan
+ * chat review
+ ##### Pengguna
+* login / logout
+* registrasi
+* cart
+* menambahkan kode kupon untuk diskon
+* chat review prodak
+* pembayaran via transfer
+
+###### Dari kami mahasiswa Universitas Nusa Mandiri
