@@ -293,8 +293,7 @@ class Shop extends CI_Controller {
 
 
         $number = $alpha . date('j') . date('n') . date('y') . $count_qty . $user_id . $coupon_id . $num;
-        //Random 3 letter . Date . Month . Year . Quantity . User ID . Coupon Used . Numeric
-
+        
         return $number;
     }
 }
