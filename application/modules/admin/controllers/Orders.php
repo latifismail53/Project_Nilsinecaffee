@@ -23,7 +23,6 @@ class Orders extends CI_Controller {
         $config['uri_segment'] = 4;
         $choice = $config['total_rows'] / $config['per_page'];
         $config['num_links'] = floor($choice);
- 
         $config['first_link']       = '«';
         $config['last_link']        = '»';
         $config['next_link']        = '›';
