@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="<?php echo get_theme_uri('css/flaticon.css'); ?>">
 	<link rel="stylesheet" href="<?php echo get_theme_uri('css/icomoon.css'); ?>">
 	<link rel="stylesheet" href="<?php echo get_theme_uri('css/style.css'); ?>">
+	<link rel="stylesheet" href="<?php echo get_theme_uri('css/styler.css'); ?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/plugins/toastr/toastr.min.css'); ?>">
 	<script src="<?php echo get_theme_uri('js/jquery.min.js'); ?>"></script>
 	<script src="<?php echo get_theme_uri('js/jquery-migrate-3.0.1.min.js'); ?>"></script>

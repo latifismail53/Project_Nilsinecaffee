@@ -19,7 +19,7 @@ Nilsine caffe merupakan nama dari sebuah project website terdahulu yang masih me
 #### *Kenapa menggunakan framework?*
 framework lebih cepat karena programmer tidak perlu membuat kode dari awal. Programmer hanya perlu memanfaatkan apa yang sudah disediakan oleh framework. Tanpa framework, programmer harus membuat semuanya dari awal sehingga ini akan memakan waktu. penulisan code pun lebih efesien dan terasa singkat
 - ###### Mengkoneksikan database menggunakan codeigniter
-```
+```php
  $this->load->database('websites');
  $query = $this->db->get('sites');
  foreach ($query->result() as $row)
@@ -28,7 +28,7 @@ framework lebih cepat karena programmer tidak perlu membuat kode dari awal. Prog
  }
 ```
 - ###### Mengkoneksikan database Tanpa codeigniter
-```
+```php
 $connection = mysql_connect("localhost","fred","12345");
 mysql_select_db("websites", $connection);
 $result = mysql_query ("SELECT * FROM sites", $connection);

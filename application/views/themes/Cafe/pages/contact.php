@@ -30,10 +30,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="info bg-white p-4">
           <p><span>Email:</span> <?php echo get_settings('store_email'); ?></p>
         </div>
-      </div>
-      <div class="col-md-3 d-flex">
-        <div class="info bg-white p-4">
-          <p><span>Website</span> www.kopisantuy.my.id</p>
+
+        <div class="col-md-3 d-flex">
+          <div class="info bg-white p-4">
+            <p>Welcome to nilsine caffe</p>
+          </div>
+
         </div>
       </div>
     </div>
@@ -75,5 +77,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
       </div>
     </div>
-  </div>
+    <<<<<<< HEAD </div>
 </section>
+=======
+</section>
+>>>>>>> a960dc5dbbf843046d718899e500ca1fd138fcd6
