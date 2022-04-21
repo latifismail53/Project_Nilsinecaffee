@@ -24,8 +24,6 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 $config['error_views_path'] = '';
 $config['cache_path'] = '';
 $config['cache_query_string'] = FALSE;
-
-//konfigurasi keamanan
 $config['encryption_key'] = 'h+_(^$sdj\][pofgiwy3rugj8197YHR=0(*&%$089s736/./;]]a\[ahdgahd27451872';
 
 
